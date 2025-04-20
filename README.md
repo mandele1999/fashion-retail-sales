@@ -29,7 +29,7 @@ fashion-retail-sales-analysis/
 │   ├── figures/                     # Saved plots or visuals
 │   └── summary.pdf                  # Final report or slide deck
 ├── docs/
-│   └── fashion_retail_data_description.md  # Data catalog/overview
+│   └── data_description.md  # Data catalog/overview
 ├── tests/
 │   └── test_utils.py                # (Optional) Unit tests for core functions
 ├── README.md
