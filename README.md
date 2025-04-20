@@ -111,7 +111,7 @@ All visuals used in the project and final summary reports can be found in:
 - reports/summary.pdf
 
 ## Contributing
-Feel free to fork the repo and open a PR. See [CONTRIBUTING.md]() for guidelines
+Feel free to fork the repo and open a PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 ## License
 MIT License. See [LICENSE] for details.
