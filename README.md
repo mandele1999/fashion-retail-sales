@@ -57,6 +57,9 @@ The dataset contains 3,400 records of fashion retail sales, including:
 
 ## Objectives
 
+Objective:
+To explore and model customer purchasing behavior in the fashion retail sector by analyzing transactional data. The project aims to extract actionable insights on sales trends, product popularity, and payment preferences, and to build a machine learning model to predict purchase amounts. An interactive dashboard will support decision-making by visualizing key retail metrics.
+
 - Explore customer purchasing behavior and product trends
 - Clean and preprocess raw transactional data
 - Train machine learning models to predict:
