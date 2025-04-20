@@ -4,10 +4,6 @@ Analyze customer behavior, product trends, and payment patterns using a fashion 
 
 ---
 
-## Overview
-This project analyzes transactional data from a fashion retail store to understand customer purchasing behavior and product trends. By cleaning, exploring, and modeling the data, it identifies key patterns and builds a predictive model for purchase amounts. A dashboard is developed to visualize sales trends, payment preferences, and product popularity—offering insights that could guide inventory, marketing, and payment strategies in fashion retail.
-
-
 ## 📦 Project Structure
 
 ```graphql
@@ -135,6 +131,9 @@ streamlit run dashboard/app.py
 All visuals used in the project and final summary reports can be found in:
 - `reports/figures/`
 - `reports/summary.pdf`
+
+## Project Summary
+This project analyzes transactional data from a fashion retail store to understand customer purchasing behavior and product trends. By cleaning, exploring, and modeling the data, it identifies key patterns and builds a predictive model for purchase amounts. A dashboard is developed to visualize sales trends, payment preferences, and product popularity—offering insights that could guide inventory, marketing, and payment strategies in fashion retail.
 
 ## Contributing
 Feel free to fork the repo and open a PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
