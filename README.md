@@ -57,31 +57,45 @@ The dataset contains 3,400 records of fashion retail sales, including:
 
 ## Objectives
 
-Objective:
-To explore and model customer purchasing behavior in the fashion retail sector by analyzing transactional data. The project aims to extract actionable insights on sales trends, product popularity, and payment preferences, and to build a machine learning model to predict purchase amounts. An interactive dashboard will support decision-making by visualizing key retail metrics.
+To explore and model customer purchasing behavior in the fashion retail sector by analyzing transactional data. 
+The project aims to:
+- Extract actionable insights on sales trends, product popularity, customer segments, and payment preferences.
+- Train machine learning models for predictive and behavioral analysis
+- Deliver insights through an interactive dashboard to support inventory, marketing, and business strategy in fashion retail.
 
+## Goals
 - Explore customer purchasing behavior and product trends
 - Clean and preprocess raw transactional data
-- Train machine learning models to predict:
-  - Purchase amount
-  - Review rating (optional)
+- Train machine learning models to:
+  - Predict purchase amount
+  - Segment customers based on behaviour
+  - Predict review rating _(optional)_
 - Create a dashboard to visualize:
-  - Popular products
+  - Popular products & purchase patterns over time
   - Preferred payment methods
-  - Purchase patterns over time
+  - Customer segments & Spend profiles
 
 ---
 
 ## Machine Learning
 
-ML models will be applied to:
-- Predict missing or future purchase amounts
-- Segment customers based on purchase behavior (optional clustering)
+This project includes two core ML tasks:
 
-Techniques explored:
+- Purchase Amount Prediction:
+Train regression models to predict transaction amounts based on item type, date, payment method, etc.
+
+- Customer Segmentation:
+Use unsupervised learning (e.g., K-Means) to cluster customers based on behavioral features such as purchase frequency, amount, and review patterns.
+
+> Bonus: Explore predicting customer review ratings using classification/regression models
+
+
+### Techniques Used
+
 - Linear Regression, Decision Trees, Random Forests
-- Feature engineering for time/date, product popularity, etc.
+- K-Means Clustering or Hierarchical Clustering
 
+Feature engineering: time-based patterns, product popularity, review ratings
 ---
 
 ## Dashboard
@@ -92,10 +106,15 @@ OR
 - **Tableau** (if dashboard is BI-focused)
 
 Key features:
-- Filter by item, date, payment method
-- View sales trends and top products
-- Compare purchase behavior across time
-
+- Filter by item, date, and payment method
+- View:
+  - Sales trends and top-performing products
+  - Customer segmentation results and spend profiles
+  - Preferred payment methods
+- Support business questions like:
+  - _Which items drive the most revenue?_
+  - _Which customer segments spend more?_
+  - _What’s the seasonal purchase trend?_
 ---
 
 ## Installation
