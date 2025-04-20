@@ -111,8 +111,8 @@ streamlit run dashboard/app.py
 ## Reports & Visuals
 
 All visuals used in the project and final summary reports can be found in:
-- reports/figures/
-- reports/summary.pdf
+- `reports/figures/`
+- `reports/summary.pdf`
 
 ## Contributing
 Feel free to fork the repo and open a PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
