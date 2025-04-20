@@ -51,7 +51,7 @@ The dataset contains 3,400 records of fashion retail sales, including:
 
 ---
 
-## 🔍 Objectives
+## Objectives
 
 - Explore customer purchasing behavior and product trends
 - Clean and preprocess raw transactional data
@@ -65,7 +65,7 @@ The dataset contains 3,400 records of fashion retail sales, including:
 
 ---
 
-## 🧠 Machine Learning
+## Machine Learning
 
 ML models will be applied to:
 - Predict missing or future purchase amounts
@@ -77,7 +77,7 @@ Techniques explored:
 
 ---
 
-## 🖥️ Dashboard
+## Dashboard
 
 An interactive dashboard built using:
 - **Streamlit** (for web app)  
@@ -91,10 +91,32 @@ Key features:
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Clone the repo and install dependencies:
 ```bash
 git clone https://github.com/mandele1999/fashion-retail-sales-analysis.git
 cd fashion-retail-sales-analysis
 pip install -r requirements.txt
+```
+Run the dashboard(Streamlit version):
+```bash
+streamlit run dashboard/app.py
+```
+
+## Reports & Visuals
+
+All visuals used in the project and final summary reports can be found in:
+- reports/figures/
+- reports/summary.pdf
+
+## Contributing
+Feel free to fork the repo and open a PR. See [CONTRIBUTING.md]() for guidelines
+
+## License
+MIT License. See [LICENSE] for details.
+
+## Acknowledgements
+- Dataset from [Kaggle](https://www.kaggle.com/datasets/atharvasoundankar/fashion-retail-sales)
+- Open-source community for the awesome tools.
+
