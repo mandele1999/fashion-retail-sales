@@ -118,7 +118,7 @@ All visuals used in the project and final summary reports can be found in:
 Feel free to fork the repo and open a PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 ## License
-MIT License. See [LICENSE] for details.
+MIT License. See [LICENSE](LICENSE) for details.
 
 ## Acknowledgements
 - Dataset from [Kaggle](https://www.kaggle.com/datasets/atharvasoundankar/fashion-retail-sales)
