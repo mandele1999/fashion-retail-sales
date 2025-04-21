@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook hidden metadata
+notebooks/*.nbconvert.ipynb
+
+# Mac OS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Plot images or generated reports
+figures/
+reports/
+*.png
+*.pdf
+*.svg
+
+# VSCode config and Python cache
+.vscode/
+*.log
+*.sqlite3
+
+# Streamlit temp files
+.streamlit/config.toml
+.streamlit/secrets.toml
