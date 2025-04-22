@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # Jupyter Notebook checkpoints
-notebooks/.ipynb_checkpoints
+notebooks/.ipynb_checkpoints/
 
 # Data files
 data/raw/
@@ -23,7 +23,8 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Jupyter Notebook hidden metadata
-notebooks/*.nbconvert.ipynb
+**/.ipynb_checkpoints/
+**/*.nbconvert.ipynb
 
 # Mac OS / Windows system files
 .DS_Store
