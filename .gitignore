@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints
+notebooks/.ipynb_checkpoints
 
 # Data files
 data/raw/
